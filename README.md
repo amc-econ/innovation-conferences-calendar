@@ -2,11 +2,9 @@
 
 This page lists recurring conferences, research workshops and summer or winter schools in the economics of innovation, science, entrepreneurship and intellectual property. It is intended for PhD students, postdoctoral researchers and junior faculty who plan submissions a year ahead.
 
-Dates, deadlines and fees were checked against the organisers' pages on 30 September 2026. Each entry links to the organiser's page for the latest edition with a published call and quotes the deadline as stated there. Where the organiser extended a deadline, both dates are given and the extended date is marked "ext."; the calendar uses the extended date. Section 1 covers conferences open to all career stages, with their provisions for early-career researchers. Sections 2 and 3 cover schools and workshops, most of which restrict participation to PhD students or early-career researchers; the eligibility rule is stated in each entry.
+Data last checked against the organisers' pages on 30 September 2026.
 
 ## Calendar
-
-Event dates are those of the latest edition with a published call, or of the next edition where it is announced. Deadlines are the final stated dates of the most recent call.
 
 | Month | Events | Submission / application deadlines |
 |---|---|---|
