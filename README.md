@@ -2,11 +2,13 @@
 
 This page lists recurring conferences, research workshops and summer or winter schools in the economics of innovation, science, entrepreneurship and intellectual property. It is intended for PhD students, postdoctoral researchers and junior faculty who plan submissions a year ahead.
 
-Data last checked against the organisers' pages on 30 September 2026.
+Data last checked against the organisers' pages on 30 September 2026. A script re-checks every link and every date on the first day of each month and opens an issue in this repository when something needs updating.
+
+The confirmed dates are also available as a calendar file. Download [innovation-calendar.ics](innovation-calendar.ics), or subscribe to `https://raw.githubusercontent.com/amc-econ/innovation-phd-calendar/main/innovation-calendar.ics` in Google Calendar, Outlook or Apple Calendar.
 
 ## Calendar: October 2026 to September 2027
 
-Dates in plain text are confirmed on the organiser's page. Items marked "exp." have no published call yet; the month is inferred from the previous edition, whose date is given in brackets. The confirmed items are also in [innovation-calendar.ics](innovation-calendar.ics), which can be imported into Google Calendar, Outlook or Apple Calendar or subscribed to at `https://raw.githubusercontent.com/amc-econ/innovation-phd-calendar/main/innovation-calendar.ics`.
+Dates in plain text are confirmed on the organiser's page. Items marked "exp." have no published call yet; the month is inferred from the previous edition, whose date is given in brackets.
 
 | Month | Events | Deadlines |
 |---|---|---|
