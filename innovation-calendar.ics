@@ -1,0 +1,266 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//innovation-phd-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Innovation\, science & IP economics: conferences and deadlines
+BEGIN:VEVENT
+UID:cc0060c9372fc22d@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261024
+SUMMARY:Eu-SPRI Early Career Autumn School 2026
+DESCRIPTION:Type: school\nLocation: CIRCLE\, Lund University\nSource: https
+ ://euspri-forum.eu/early-career-autumn-school-responsible-ai-for-stip/\nFr
+ om github.com/amc-econ/innovation-phd-calendar
+URL:https://euspri-forum.eu/early-career-autumn-school-responsible-ai-for-s
+ tip/
+LOCATION:CIRCLE\, Lund University
+END:VEVENT
+BEGIN:VEVENT
+UID:75fe8421183e1f50@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Deadline: Pavia Winter School 2027 (4th) — applications close
+DESCRIPTION:Type: school\nSource: https://sites.google.com/view/geographyof
+ innovation-pavia/home-page\nFrom github.com/amc-econ/innovation-phd-calend
+ ar
+URL:https://sites.google.com/view/geographyofinnovation-pavia/home-page
+END:VEVENT
+BEGIN:VEVENT
+UID:d51dd80754c9740a@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:WEFI Student-Led Workshop 2026 (8th)
+DESCRIPTION:Type: workshop\nLocation: Online (Zoom)\nSource: https://worksh
+ op-efi.com/student-led-workshop/\nFrom github.com/amc-econ/innovation-phd-
+ calendar
+URL:https://workshop-efi.com/student-led-workshop/
+LOCATION:Online (Zoom)
+END:VEVENT
+BEGIN:VEVENT
+UID:e9daf55f8d2ab487@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261107
+SUMMARY:ZEW Conference on the Economics of Innovation and Patenting 2026 (1
+ 1th)
+DESCRIPTION:Type: conference\nLocation: ZEW\, Mannheim\nSource: https://www
+ .zew.de/en/events-and-professional-training/detail/11th-zew-conference-on-
+ the-economics-of-innovation-and-patenting/4960\nFrom github.com/amc-econ/i
+ nnovation-phd-calendar
+URL:https://www.zew.de/en/events-and-professional-training/detail/11th-zew-
+ conference-on-the-economics-of-innovation-and-patenting/4960
+LOCATION:ZEW\, Mannheim
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0f6c01e8906400@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Deadline: DRUID Academy 2027 — abstract deadline (twelve noon\, y
+ our local time)
+DESCRIPTION:Type: workshop\nSource: https://conference.druid.dk/Druid/?conf
+ Id=73\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=73
+END:VEVENT
+BEGIN:VEVENT
+UID:c6caeea0066c5ca1@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Opens: DRUID27 — submissions open
+DESCRIPTION:Type: conference\nSource: https://conference.druid.dk/Druid/?co
+ nfId=74\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=74
+END:VEVENT
+BEGIN:VEVENT
+UID:9422359fca0e594f@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261216
+SUMMARY:RISE9 Workshop
+DESCRIPTION:Type: workshop\nLocation: Max Planck Institute for Innovation a
+ nd Competition\, Munich\nSource: https://www.ip.mpg.de/en/research/innovat
+ ion-and-entrepreneurship-research/rise-workshop.html\nFrom github.com/amc-
+ econ/innovation-phd-calendar
+URL:https://www.ip.mpg.de/en/research/innovation-and-entrepreneurship-resea
+ rch/rise-workshop.html
+LOCATION:Max Planck Institute for Innovation and Competition\, Munich
+END:VEVENT
+BEGIN:VEVENT
+UID:20432237e184d8f5@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Deadline: DRUID Academy 2027 — registration and payment
+DESCRIPTION:Type: workshop\nSource: https://conference.druid.dk/Druid/?conf
+ Id=73\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=73
+END:VEVENT
+BEGIN:VEVENT
+UID:efe61e6b8153dbe9@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270109
+SUMMARY:TSE Digital Economics Conference 2027 (19th)
+DESCRIPTION:Type: conference\nLocation: Toulouse School of Economics\nSourc
+ e: https://www.tse-fr.eu/conferences/2027-19th-digital-economics-conferenc
+ e\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://www.tse-fr.eu/conferences/2027-19th-digital-economics-conferenc
+ e
+LOCATION:Toulouse School of Economics
+END:VEVENT
+BEGIN:VEVENT
+UID:25d6e8efadb59508@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270116
+SUMMARY:Pavia Winter School 2027 (4th)
+DESCRIPTION:Type: school\nLocation: University of Pavia\nSource: https://si
+ tes.google.com/view/geographyofinnovation-pavia/home-page\nFrom github.com
+ /amc-econ/innovation-phd-calendar
+URL:https://sites.google.com/view/geographyofinnovation-pavia/home-page
+LOCATION:University of Pavia
+END:VEVENT
+BEGIN:VEVENT
+UID:adfe29ff8f71a3d4@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270123
+SUMMARY:DRUID Academy 2027
+DESCRIPTION:Type: workshop\nLocation: University of Southern Denmark\, Oden
+ se\nSource: https://conference.druid.dk/Druid/?confId=73\nFrom github.com/
+ amc-econ/innovation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=73
+LOCATION:University of Southern Denmark\, Odense
+END:VEVENT
+BEGIN:VEVENT
+UID:250f6bdad5736430@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Deadline: DRUID27 — submission deadline (before midnight at the s
+ cholar's location)
+DESCRIPTION:Type: conference\nSource: https://conference.druid.dk/Druid/?co
+ nfId=74\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=74
+END:VEVENT
+BEGIN:VEVENT
+UID:ef8f06acd3b7275d@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270313
+SUMMARY:MaCCI Annual Conference 2027
+DESCRIPTION:Type: conference\nLocation: ZEW\, Mannheim\nSource: https://www
+ .macci-mannheim.eu/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://www.macci-mannheim.eu/
+LOCATION:ZEW\, Mannheim
+END:VEVENT
+BEGIN:VEVENT
+UID:0a988cbef807a6e4@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Eu-SPRI Early Career Conference 2027
+DESCRIPTION:Type: conference\nLocation: University of Vaasa\nSource: https:
+ //euspri-forum.eu/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://euspri-forum.eu/
+LOCATION:University of Vaasa
+END:VEVENT
+BEGIN:VEVENT
+UID:0eb5d81aa1bb47d3@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270417
+SUMMARY:Eu-SPRI Thematic Conference 2027
+DESCRIPTION:Type: conference\nLocation: University of Vaasa\nSource: https:
+ //euspri-forum.eu/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://euspri-forum.eu/
+LOCATION:University of Vaasa
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6e03b085b98173@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270503
+SUMMARY:IIOC 2027 (25th)
+DESCRIPTION:Type: conference\nLocation: Hilton Baltimore Inner Harbor\, Bal
+ timore\nSource: https://www.indorgsociety.org/conference\nFrom github.com/
+ amc-econ/innovation-phd-calendar
+URL:https://www.indorgsociety.org/conference
+LOCATION:Hilton Baltimore Inner Harbor\, Baltimore
+END:VEVENT
+BEGIN:VEVENT
+UID:6f77a10f1a4d3c55@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:MSI PhD Workshop 2027 (6th)
+DESCRIPTION:Type: workshop\nLocation: Munich\nSource: https://www.munich-su
+ mmer-institute.org/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://www.munich-summer-institute.org/
+LOCATION:Munich
+END:VEVENT
+BEGIN:VEVENT
+UID:499b2f5d0a4174e0@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270604
+SUMMARY:Munich Summer Institute 2027 (11th)
+DESCRIPTION:Type: conference\nLocation: Munich\nSource: https://www.munich-
+ summer-institute.org/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://www.munich-summer-institute.org/
+LOCATION:Munich
+END:VEVENT
+BEGIN:VEVENT
+UID:66c845722bc94ed0@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270612
+SUMMARY:Eu-SPRI Annual Conference 2027
+DESCRIPTION:Type: conference\nLocation: Leiden University\nSource: https://
+ euspri-forum.eu/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://euspri-forum.eu/
+LOCATION:Leiden University
+END:VEVENT
+BEGIN:VEVENT
+UID:1d96bdd678400586@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270617
+SUMMARY:DRUID27
+DESCRIPTION:Type: conference\nLocation: Copenhagen Business School\nSource:
+  https://conference.druid.dk/Druid/?confId=74\nFrom github.com/amc-econ/in
+ novation-phd-calendar
+URL:https://conference.druid.dk/Druid/?confId=74
+LOCATION:Copenhagen Business School
+END:VEVENT
+BEGIN:VEVENT
+UID:919bd8f0e6987fe1@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270630
+SUMMARY:Doctoral Workshop on the Economics of Digitization 2027 (10th)
+DESCRIPTION:Type: workshop\nLocation: Isola di San Servolo\, Venice\nSource
+ : https://www.digital-economics.org/\nFrom github.com/amc-econ/innovation-
+ phd-calendar
+URL:https://www.digital-economics.org/
+LOCATION:Isola di San Servolo\, Venice
+END:VEVENT
+BEGIN:VEVENT
+UID:2e4265cba5f6abde@innovation-phd-calendar
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270911
+SUMMARY:STI-ENID 2027 (31st)
+DESCRIPTION:Type: conference\nLocation: Rome\nSource: https://www.ircres.cn
+ r.it/en/sti-enid-2026-comes-to-a-close-in-antwerp-2027-edition-to-be-held-
+ in-rome/\nFrom github.com/amc-econ/innovation-phd-calendar
+URL:https://www.ircres.cnr.it/en/sti-enid-2026-comes-to-a-close-in-antwerp-
+ 2027-edition-to-be-held-in-rome/
+LOCATION:Rome
+END:VEVENT
+END:VCALENDAR
