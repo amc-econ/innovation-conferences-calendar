@@ -29,7 +29,23 @@ Outside this window: GeoInno (biennial; next edition 2028), ISS Schumpeter (even
 
 ## 1. Conferences
 
-Open to all career stages unless stated otherwise. Ordered by month of the event.
+Open to all career stages unless stated otherwise. Ordered by month of the event, starting from October, as in the calendar above.
+
+### November — ZEW Conference on the Economics of Innovation and Patenting
+ZEW Mannheim. Roughly biennial (2022, 2024, 2026). Submit a PDF by email.
+- **Latest edition:** 11th conference, 5–6 November 2026, ZEW, Mannheim. Keynotes Fabian Gaessler, Matt Marx, Valentina Tartari.
+- **Deadline (2026 edition):** **7 August 2026** (innopat2026@zew.de) · notification 4 September 2026 · registration deadline 31 October 2026 (2024: 26 Jul 2024; 2022: 28 Sep 2022)
+- **Early-career:** reduced PhD fee €100 (regular €200); limited travel grants, preferably for PhD students and young researchers.
+- **Next edition:** 12th not announced; if biennial, 2028
+- **Links:** [11th conference (ZEW page)](https://www.zew.de/en/events-and-professional-training/detail/11th-zew-conference-on-the-economics-of-innovation-and-patenting/4960)
+
+### November — Globelics International Conference
+Global network for the economics of learning, innovation and competence-building systems; innovation and development. Full papers of at most 8,000 words.
+- **Latest edition:** 24–26 November 2025, National Research Foundation, Pretoria (with University of Johannesburg, Tshwane University of Technology, Wits, HSRC)
+- **Deadline (2025 edition):** **16 May 2025** in the circulated call; the host page states 1 June 2025
+- **Early-career:** PhD Paper Award; limited travel support for PhD students and early-career researchers; Globelics also runs an International PhD Academy (3rd Academy with the NACLICS conference, 22–26 June 2026, Barbados).
+- **Next edition:** no 2026 Globelics International Conference listed on the network's events page as of 30 Sep 2026 (regional 2026 events: NACLICS June 2026, AfricaLics 10–12 Nov 2026)
+- **Links:** [Globelics 2025](https://globelics.com/activities/globelics-international-conference-2025/) · [Globelics events](https://globelics.com/activity-type/event/)
 
 ### January — TSE Digital Economics Conference
 Toulouse School of Economics (TSE Digital Center) with CEPR. Papers preferred over abstracts.
@@ -148,25 +164,15 @@ European Network of Indicator Designers. Scientometrics, research evaluation, sc
 - **Next edition:** 31st conference, 8–10 September 2027, Rome (CNR-IRCrES); call not yet published
 - **Links:** [STI-ENID 2026](https://www.uantwerpen.be/en/conferences/30th-annual-international-conference-on-science-and-technology-indicators/) · [2027 announcement](https://www.ircres.cnr.it/en/sti-enid-2026-comes-to-a-close-in-antwerp-2027-edition-to-be-held-in-rome/)
 
-### November — ZEW Conference on the Economics of Innovation and Patenting
-ZEW Mannheim. Roughly biennial (2022, 2024, 2026). Submit a PDF by email.
-- **Latest edition:** 11th conference, 5–6 November 2026, ZEW, Mannheim. Keynotes Fabian Gaessler, Matt Marx, Valentina Tartari.
-- **Deadline (2026 edition):** **7 August 2026** (innopat2026@zew.de) · notification 4 September 2026 · registration deadline 31 October 2026 (2024: 26 Jul 2024; 2022: 28 Sep 2022)
-- **Early-career:** reduced PhD fee €100 (regular €200); limited travel grants, preferably for PhD students and young researchers.
-- **Next edition:** 12th not announced; if biennial, 2028
-- **Links:** [11th conference (ZEW page)](https://www.zew.de/en/events-and-professional-training/detail/11th-zew-conference-on-the-economics-of-innovation-and-patenting/4960)
-
-### November — Globelics International Conference
-Global network for the economics of learning, innovation and competence-building systems; innovation and development. Full papers of at most 8,000 words.
-- **Latest edition:** 24–26 November 2025, National Research Foundation, Pretoria (with University of Johannesburg, Tshwane University of Technology, Wits, HSRC)
-- **Deadline (2025 edition):** **16 May 2025** in the circulated call; the host page states 1 June 2025
-- **Early-career:** PhD Paper Award; limited travel support for PhD students and early-career researchers; Globelics also runs an International PhD Academy (3rd Academy with the NACLICS conference, 22–26 June 2026, Barbados).
-- **Next edition:** no 2026 Globelics International Conference listed on the network's events page as of 30 Sep 2026 (regional 2026 events: NACLICS June 2026, AfricaLics 10–12 Nov 2026)
-- **Links:** [Globelics 2025](https://globelics.com/activities/globelics-international-conference-2025/) · [Globelics events](https://globelics.com/activity-type/event/)
-
 ## 2. Summer and winter schools
 
-Ordered by month of the school.
+Ordered by month of the school, starting from October.
+
+### October — Eu-SPRI Early Career Autumn School
+Eu-SPRI Forum. For early-career researchers. 2026 theme: Responsible AI for science, technology and innovation policy.
+- **Latest edition:** 19–23 October 2026, CIRCLE, Lund University
+- **Deadline (2026 edition):** **16 August 2026** (application)
+- **Links:** [autumn school page](https://euspri-forum.eu/early-career-autumn-school-responsible-ai-for-stip/) · [call (PDF)](https://euspri-forum.eu/wp-content/uploads/2026/05/AICourse-CIRCLE-Autumn-2026.pdf)
 
 ### January — Geography of Innovation Winter School (Pavia)
 University of Pavia (Dept. of Political and Social Sciences) with ICRIOS-Bocconi. 5 days; 11 speakers; two data-lab sessions (R/Python: economic complexity and diversification, network analysis); meet-the-editors session (Research Policy, Industry and Innovation, Economic Geography, Science and Public Policy, Regional Studies). Limited number of places. For "doctoral students and junior researchers".
@@ -216,15 +222,31 @@ Since 2009. Board: Bruno Cassiman, Paul Heidhues, Hanna Hottenrott, Reinhilde Ve
 - **Next edition:** 2027 call expected around May 2027
 - **Links:** [euro-ciss.eu](https://euro-ciss.eu/) · [CfP 2026 (PDF)](https://euro-ciss.eu/wp-content/uploads/2026/05/CfP_CISS-2026.pdf)
 
-### October — Eu-SPRI Early Career Autumn School
-Eu-SPRI Forum. For early-career researchers. 2026 theme: Responsible AI for science, technology and innovation policy.
-- **Latest edition:** 19–23 October 2026, CIRCLE, Lund University
-- **Deadline (2026 edition):** **16 August 2026** (application)
-- **Links:** [autumn school page](https://euspri-forum.eu/early-career-autumn-school-responsible-ai-for-stip/) · [call (PDF)](https://euspri-forum.eu/wp-content/uploads/2026/05/AICourse-CIRCLE-Autumn-2026.pdf)
-
 ## 3. Early-career workshops
 
-Paper workshops with discussants, restricted to PhD students or early-career researchers. Ordered by month of the event.
+Paper workshops with discussants, restricted to PhD students or early-career researchers. Ordered by month of the event, starting from October.
+
+### November — WEFI Student-Led Workshop (Workshop on Entrepreneurial Finance and Innovation)
+Online (Zoom); organised by the WEFI Fellows; faculty feedback. Full-length student-authored papers; papers co-authored with faculty are welcome if the student presents. WEFI organisers: Michael Ewens, Camille Hebert, Song Ma, Melanie Wallskog.
+- **Latest edition:** 8th Student-Led Workshop, 2 November 2026, Zoom
+- **Deadline (2026 edition):** **30 September 2026, 11:59 p.m. ET** — submit to students@workshop-efi.com with the presenting author's name in the subject line
+- **Also:** WEFI Fall Series (bi-weekly virtual seminar, 28 Sep–16 Nov 2026; open to all) — 2026 deadline **20 August 2026**, submit to contact@workshop-efi.com
+- **Next edition:** 2027 student workshop call expected around August 2027
+- **Links:** [student-led workshop call](https://workshop-efi.com/student-led-workshop/) · [workshop-efi.com](https://workshop-efi.com/)
+
+### December — RISE Workshop (Research on Innovation, Science and Entrepreneurship)
+Max Planck Institute for Innovation and Competition, Munich; organised by the PhD students and postdocs of Dietmar Harhoff's department. For "Ph.D. students and Junior Postdocs" in economics or management. Keynote plus about 10 papers, each with a senior discussant (40 min per paper). No fee; meals included; travel grants on request.
+- **Latest edition:** RISE9, 14–15 December 2026, Munich. Keynote Chiara Franzoni.
+- **Deadlines (2026 edition):** **24 July 2026** (full paper or extended abstract of at least 3 pages, online tool) · notification by early September 2026 · registration until 25 September 2026 · full paper 23 November 2026
+- **Next edition:** 2027 call expected around May 2027
+- **Links:** [RISE workshop page](https://www.ip.mpg.de/en/research/innovation-and-entrepreneurship-research/rise-workshop.html) · [RISE9 call (PDF)](https://www.ip.mpg.de/fileadmin/ipmpg/content/forschung/Call_for_Papers_RISE9.pdf)
+
+### December — WINGS Workshop (Economics of INnovation, Geography and Science)
+Successor of WICK (Workshop in Economics of Innovation, Complexity and Knowledge, 12 editions to 2024). PhD in Innovation for the Circular Economy (Univ. of Turin), the Vilfredo Pareto Doctoral Program (Univ. of Turin & Collegio Carlo Alberto) and YSI. Extended abstract of at most 1,000 words; full paper or advanced presentation due before the workshop; every participant presents. "Both PhD Students and early-career researchers are very welcome to apply."
+- **Latest edition:** WINGS#1, 11–12 December 2025, Campus Luigi Einaudi, Turin
+- **Deadlines (2025 edition):** **27 October 2025** · acceptance 3 November 2025 · registration 9 November 2025 · full paper 3 December 2025
+- **Next edition:** WINGS#2 (December 2026) call not found as of 30 Sep 2026
+- **Links:** [WINGS site](https://sites.google.com/view/wingsworkshop) · [SIE announcement](https://www.siecon.org/en/node/7858)
 
 ### January — DRUID Academy
 DRUID Society. For "PhD researcher, PostDocs and equivalent up to two years after PhD". One-page abstract; junior and senior discussant per paper; Bent Dalum PhD Award; about 60 participants.
@@ -262,28 +284,6 @@ School of Economics, University of Sheffield (Enrico Vanino) with the Innovation
 - **Deadline:** 2026 deadline no longer shown on the site (unverified); 2024 edition: **Sunday 4 August 2024 (close of play)**
 - **Next edition:** "The call for papers for the 2027 edition will be available in Spring 2027"
 - **Links:** [symposium site](https://sites.google.com/sheffield.ac.uk/bessemersymposium/home) · [2024 call (IRC)](https://ircaucus.ac.uk/call-for-papers-for-the-bessemer-symposium-in-economic-geography-of-innovation-early-careers-research-symposium/)
-
-### November — WEFI Student-Led Workshop (Workshop on Entrepreneurial Finance and Innovation)
-Online (Zoom); organised by the WEFI Fellows; faculty feedback. Full-length student-authored papers; papers co-authored with faculty are welcome if the student presents. WEFI organisers: Michael Ewens, Camille Hebert, Song Ma, Melanie Wallskog.
-- **Latest edition:** 8th Student-Led Workshop, 2 November 2026, Zoom
-- **Deadline (2026 edition):** **30 September 2026, 11:59 p.m. ET** — submit to students@workshop-efi.com with the presenting author's name in the subject line
-- **Also:** WEFI Fall Series (bi-weekly virtual seminar, 28 Sep–16 Nov 2026; open to all) — 2026 deadline **20 August 2026**, submit to contact@workshop-efi.com
-- **Next edition:** 2027 student workshop call expected around August 2027
-- **Links:** [student-led workshop call](https://workshop-efi.com/student-led-workshop/) · [workshop-efi.com](https://workshop-efi.com/)
-
-### December — RISE Workshop (Research on Innovation, Science and Entrepreneurship)
-Max Planck Institute for Innovation and Competition, Munich; organised by the PhD students and postdocs of Dietmar Harhoff's department. For "Ph.D. students and Junior Postdocs" in economics or management. Keynote plus about 10 papers, each with a senior discussant (40 min per paper). No fee; meals included; travel grants on request.
-- **Latest edition:** RISE9, 14–15 December 2026, Munich. Keynote Chiara Franzoni.
-- **Deadlines (2026 edition):** **24 July 2026** (full paper or extended abstract of at least 3 pages, online tool) · notification by early September 2026 · registration until 25 September 2026 · full paper 23 November 2026
-- **Next edition:** 2027 call expected around May 2027
-- **Links:** [RISE workshop page](https://www.ip.mpg.de/en/research/innovation-and-entrepreneurship-research/rise-workshop.html) · [RISE9 call (PDF)](https://www.ip.mpg.de/fileadmin/ipmpg/content/forschung/Call_for_Papers_RISE9.pdf)
-
-### December — WINGS Workshop (Economics of INnovation, Geography and Science)
-Successor of WICK (Workshop in Economics of Innovation, Complexity and Knowledge, 12 editions to 2024). PhD in Innovation for the Circular Economy (Univ. of Turin), the Vilfredo Pareto Doctoral Program (Univ. of Turin & Collegio Carlo Alberto) and YSI. Extended abstract of at most 1,000 words; full paper or advanced presentation due before the workshop; every participant presents. "Both PhD Students and early-career researchers are very welcome to apply."
-- **Latest edition:** WINGS#1, 11–12 December 2025, Campus Luigi Einaudi, Turin
-- **Deadlines (2025 edition):** **27 October 2025** · acceptance 3 November 2025 · registration 9 November 2025 · full paper 3 December 2025
-- **Next edition:** WINGS#2 (December 2026) call not found as of 30 Sep 2026
-- **Links:** [WINGS site](https://sites.google.com/view/wingsworkshop) · [SIE announcement](https://www.siecon.org/en/node/7858)
 
 ## Series with no recent edition (as of 30 September 2026)
 
