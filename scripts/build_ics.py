@@ -15,7 +15,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CSV = ROOT / "data" / "events.csv"
 ICS = ROOT / "innovation-calendar.ics"
-PRODID = "-//innovation-phd-calendar//EN"
+PRODID = "-//innovation-conferences-calendar//EN"
 CAL_NAME = "Innovation, science & IP economics: conferences and deadlines"
 
 
@@ -44,7 +44,7 @@ def esc(text: str) -> str:
 
 def uid(row: dict) -> str:
     key = f"{row['name']}|{row['item']}|{row['start']}"
-    return hashlib.sha1(key.encode("utf-8")).hexdigest()[:16] + "@innovation-phd-calendar"
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()[:16] + "@innovation-conferences-calendar"
 
 
 def build(rows) -> str:
@@ -66,7 +66,7 @@ def build(rows) -> str:
         if r["location"]:
             desc_parts.append(f"Location: {r['location']}")
         desc_parts.append(f"Source: {r['url']}")
-        desc_parts.append("From github.com/amc-econ/innovation-phd-calendar")
+        desc_parts.append("From github.com/amc-econ/innovation-conferences-calendar")
         lines += ["BEGIN:VEVENT",
                   f"UID:{uid(r)}",
                   f"DTSTAMP:{stamp}",
