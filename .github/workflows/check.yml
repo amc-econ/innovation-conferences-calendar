@@ -1,0 +1,79 @@
+name: Link and date check
+
+# Runs every two years (1 October of even years), on every push to main,
+# on pull requests, and by hand. An issue with the report is opened on the
+# scheduled run, on a manual run, and on a push whose commit message
+# contains "[test-check]".
+
+on:
+  schedule:
+    - cron: "0 6 1 10 *"   # 06:00 UTC on 1 October; the gate step skips odd years
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gate scheduled runs to even years
+        id: gate
+        shell: bash
+        run: |
+          year=$(date -u +%Y)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ $((year % 2)) -ne 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Odd year $year: nothing to do until next year."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.skip != 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Verify the .ics file matches data/events.csv
+        if: steps.gate.outputs.skip != 'true'
+        run: python scripts/build_ics.py --check
+
+      - name: Check links and dates
+        if: steps.gate.outputs.skip != 'true'
+        id: check
+        shell: bash
+        run: |
+          set +e
+          python scripts/check.py --report report.md
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Upload report
+        if: always() && steps.gate.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-report
+          path: report.md
+
+      - name: Open an issue with the report
+        if: >-
+          steps.gate.outputs.skip != 'true' && steps.check.outputs.code != '0' &&
+          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' ||
+           contains(github.event.head_commit.message, '[test-check]'))
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Maintenance check $(date -u +%Y-%m-%d): links or dates need attention"
+          gh issue create --title "$title" --body-file report.md --repo "$GITHUB_REPOSITORY"
+
+      - name: Fail on broken links
+        if: steps.gate.outputs.skip != 'true' && steps.check.outputs.code == '1'
+        run: |
+          cat report.md
+          exit 1
