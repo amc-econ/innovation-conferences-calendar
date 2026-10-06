@@ -1,0 +1,104 @@
+name: Deadline reminders
+
+# Every day at 06:00 UTC, look for submission deadlines that are exactly
+# seven days away (data/events.csv) and send one email to the address in
+# MAIL_TO. Sending needs four repository secrets: MAIL_SERVER, MAIL_PORT,
+# MAIL_USERNAME, MAIL_PASSWORD (for Gmail: smtp.gmail.com, 465, the Gmail
+# address, an app password). Without MAIL_PASSWORD the workflow opens an
+# issue assigned to the repository owner instead, and GitHub emails that.
+#
+# Test by hand: "Run workflow" with a date, or push a commit whose message
+# contains "[test-reminder YYYY-MM-DD]"; the date is treated as today.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      today:
+        description: "Treat this date as today (YYYY-MM-DD). Leave empty for the real date."
+        required: false
+        default: ""
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  MAIL_TO: antoine.mathieucollin@kuleuven.be
+  DAYS_AHEAD: "7"
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide which date counts as today
+        id: date
+        shell: bash
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_TODAY: ${{ github.event.inputs.today }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          today=""
+          case "$EVENT" in
+            schedule) today=$(date -u +%Y-%m-%d) ;;
+            workflow_dispatch) today="${INPUT_TODAY:-$(date -u +%Y-%m-%d)}" ;;
+            push)
+              today=$(printf '%s' "$COMMIT_MSG" | grep -oE '\[test-reminder [0-9]{4}-[0-9]{2}-[0-9]{2}\]' | head -1 | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' || true)
+              ;;
+          esac
+          echo "today=$today" >> "$GITHUB_OUTPUT"
+          if [ -z "$today" ]; then echo "Nothing to do for this $EVENT."; fi
+
+      - uses: actions/checkout@v4
+        if: steps.date.outputs.today != ''
+
+      - uses: actions/setup-python@v5
+        if: steps.date.outputs.today != ''
+        with:
+          python-version: "3.12"
+
+      - name: Find deadlines seven days ahead
+        if: steps.date.outputs.today != ''
+        id: find
+        run: python scripts/reminders.py --today "${{ steps.date.outputs.today }}" --days "$DAYS_AHEAD" --out reminder.md
+
+      - name: Send the email
+        if: steps.find.outputs.found == 'true' && env.MAIL_PASSWORD != ''
+        env:
+          MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
+          MAIL_PORT: ${{ secrets.MAIL_PORT }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          SUBJECT: ${{ steps.find.outputs.subject }}
+        run: |
+          python - <<'PY'
+          import os, smtplib, ssl
+          from email.message import EmailMessage
+          msg = EmailMessage()
+          msg["From"] = f"Innovation calendar <{os.environ['MAIL_USERNAME']}>"
+          msg["To"] = os.environ["MAIL_TO"]
+          msg["Subject"] = os.environ["SUBJECT"]
+          msg.set_content(open("reminder.md", encoding="utf-8").read())
+          host, port = os.environ["MAIL_SERVER"], int(os.environ.get("MAIL_PORT") or 465)
+          if port == 465:
+              server = smtplib.SMTP_SSL(host, port, context=ssl.create_default_context())
+          else:
+              server = smtplib.SMTP(host, port); server.starttls(context=ssl.create_default_context())
+          with server:
+              server.login(os.environ["MAIL_USERNAME"], os.environ["MAIL_PASSWORD"])
+              server.send_message(msg)
+          print("sent to", os.environ["MAIL_TO"])
+          PY
+
+      - name: Open an issue instead (no mail secrets set)
+        if: steps.find.outputs.found == 'true' && env.MAIL_PASSWORD == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUBJECT: ${{ steps.find.outputs.subject }}
+        run: |
+          echo "MAIL_PASSWORD secret is not set; opening an issue instead of sending email." >> reminder.md
+          gh issue create --title "$SUBJECT" --body-file reminder.md --assignee "$GITHUB_REPOSITORY_OWNER" --repo "$GITHUB_REPOSITORY"
